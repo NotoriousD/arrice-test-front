@@ -1,0 +1,14 @@
+.root {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.row {
+    display: flex;
+
+    &.rightAlign {
+        justify-content: flex-end;
+    }
+}

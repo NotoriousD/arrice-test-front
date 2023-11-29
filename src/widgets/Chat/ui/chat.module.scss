@@ -1,0 +1,16 @@
+.root {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.messages {
+    flex: 1 0 auto;
+    background-color: #dbdbdb;
+    overflow-y: scroll;
+    height: calc(100% - 40px);
+}
+
+.col {
+    width: 100%;
+}

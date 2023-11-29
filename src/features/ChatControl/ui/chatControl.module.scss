@@ -1,0 +1,8 @@
+.root {
+    height: 40px;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 30% 52% 18%;
+}

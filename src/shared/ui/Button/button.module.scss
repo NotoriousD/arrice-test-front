@@ -1,0 +1,17 @@
+.root {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    height: 40px;
+    background-color: #0095ff;
+    transition: all .3s ease-in-out;
+    border: 0;
+    outline: none;
+    color: #fff;
+    cursor: pointer;
+
+    &:hover {
+        background-color: darken(#0095ff, 5%);
+    }
+}
